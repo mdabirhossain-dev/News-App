@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" id="gTV-IL-0wX" customClass="AutoScrollingCollectionViewCell" customModule="NewsOTT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="362" height="65"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WUJ-gN-dqP">
+                        <rect key="frame" x="0.0" y="0.0" width="362" height="65"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RuK-At-OqV" customClass="EFAutoScrollLabel" customModule="NewsOTT" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="362" height="65"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RuK-At-OqV" secondAttribute="trailing" id="6SA-HO-p0I"/>
+                            <constraint firstAttribute="bottom" secondItem="RuK-At-OqV" secondAttribute="bottom" id="UeA-3A-Mwp"/>
+                            <constraint firstItem="RuK-At-OqV" firstAttribute="leading" secondItem="WUJ-gN-dqP" secondAttribute="leading" id="YK4-XN-rdj"/>
+                            <constraint firstItem="RuK-At-OqV" firstAttribute="top" secondItem="WUJ-gN-dqP" secondAttribute="top" id="g6Q-DW-HtY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="WUJ-gN-dqP" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailing" id="Cb0-fJ-fGI"/>
+                <constraint firstAttribute="leading" secondItem="WUJ-gN-dqP" secondAttribute="leading" id="eVg-5J-MPJ"/>
+                <constraint firstItem="WUJ-gN-dqP" firstAttribute="bottom" secondItem="gTV-IL-0wX" secondAttribute="bottom" id="haU-Cz-Vek"/>
+                <constraint firstAttribute="top" secondItem="WUJ-gN-dqP" secondAttribute="top" id="n7n-Vj-MEW"/>
+            </constraints>
+            <size key="customSize" width="362" height="65"/>
+            <connections>
+                <outlet property="scrollView" destination="RuK-At-OqV" id="XUx-vy-aHB"/>
+            </connections>
+            <point key="canvasLocation" x="187.78625954198472" y="25"/>
+        </collectionViewCell>
+    </objects>
+</document>

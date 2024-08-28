@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="FilterHeaderView" customModule="NewsOTT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="41"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyW-Mn-XZe">
+                    <rect key="frame" x="0.0" y="0.0" width="378" height="41"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dSK-y9-L1g">
+                            <rect key="frame" x="16" y="4" width="229" height="33"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dD1-oh-fNZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="66" height="33"/>
+                                    <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Latest"/>
+                                    <connections>
+                                        <action selector="didTappedLatest:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="o0c-CH-Pp6"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCx-XA-4uK">
+                                    <rect key="frame" x="74" y="0.0" width="78" height="33"/>
+                                    <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Popular"/>
+                                    <connections>
+                                        <action selector="didTappedPopular:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="ada-pe-R7b"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Np9-BP-Wqz">
+                                    <rect key="frame" x="160" y="0.0" width="69" height="33"/>
+                                    <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Oldest"/>
+                                    <connections>
+                                        <action selector="didTappedOldest:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="rqK-zK-DrQ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahx-Ha-zyy">
+                            <rect key="frame" x="282" y="4" width="80" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="OZX-fB-6Km"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="-8" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Filter" image="line.3.horizontal.decrease" catalog="system"/>
+                            <connections>
+                                <action selector="didTappedFilter:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="bOl-Sl-5uC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ahx-Ha-zyy" secondAttribute="bottom" constant="4" id="1Ys-6v-NhR"/>
+                        <constraint firstItem="ahx-Ha-zyy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dSK-y9-L1g" secondAttribute="trailing" constant="8" id="6Ua-mc-6B1"/>
+                        <constraint firstItem="dSK-y9-L1g" firstAttribute="leading" secondItem="FyW-Mn-XZe" secondAttribute="leading" constant="16" id="JVh-Rr-DwY"/>
+                        <constraint firstItem="ahx-Ha-zyy" firstAttribute="top" secondItem="FyW-Mn-XZe" secondAttribute="top" constant="4" id="RlF-kw-Ga5"/>
+                        <constraint firstAttribute="bottom" secondItem="dSK-y9-L1g" secondAttribute="bottom" constant="4" id="XaW-Au-QEf"/>
+                        <constraint firstItem="dSK-y9-L1g" firstAttribute="top" secondItem="FyW-Mn-XZe" secondAttribute="top" constant="4" id="aqc-mf-ef4"/>
+                        <constraint firstAttribute="trailing" secondItem="ahx-Ha-zyy" secondAttribute="trailing" constant="16" id="eUp-5f-WKw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FyW-Mn-XZe" secondAttribute="trailing" id="YsK-RY-Xuq"/>
+                <constraint firstItem="FyW-Mn-XZe" firstAttribute="bottom" secondItem="U6b-Vx-4bR" secondAttribute="bottom" id="aAg-AN-gyj"/>
+                <constraint firstAttribute="top" secondItem="FyW-Mn-XZe" secondAttribute="top" id="djE-EI-b2N"/>
+                <constraint firstItem="FyW-Mn-XZe" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="dml-vz-wTB"/>
+            </constraints>
+            <connections>
+                <outlet property="customView" destination="FyW-Mn-XZe" id="Xfz-kX-pZa"/>
+                <outlet property="filterButtonOutlet" destination="ahx-Ha-zyy" id="NQH-dJ-hY2"/>
+                <outlet property="latestButtonOutlet" destination="dD1-oh-fNZ" id="Agq-Gy-vTf"/>
+                <outlet property="oldestButtonOutlet" destination="Np9-BP-Wqz" id="wsy-zb-ZOH"/>
+                <outlet property="popularButtonOutlet" destination="WCx-XA-4uK" id="HO8-fg-u9V"/>
+                <outletCollection property="filterButtons" destination="dD1-oh-fNZ" collectionClass="NSMutableArray" id="swg-jT-b8m"/>
+                <outletCollection property="filterButtons" destination="WCx-XA-4uK" collectionClass="NSMutableArray" id="08o-sY-EKr"/>
+                <outletCollection property="filterButtons" destination="Np9-BP-Wqz" collectionClass="NSMutableArray" id="ZWX-sy-zrT"/>
+            </connections>
+            <point key="canvasLocation" x="-9.1603053435114496" y="16.549295774647888"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="line.3.horizontal.decrease" catalog="system" width="128" height="73"/>
+    </resources>
+</document>

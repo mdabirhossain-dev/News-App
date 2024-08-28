@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NewsOTT
+
+  Created by Tanvir Rahman on 2/11/23.
+  
+*/
+//প্রফাইলকন্টেন্টভিউ 
+"edit-profile-str" = "প্রোফাইল সম্পাদনা";
+"app-settings-str" = "অ্যাপ সেটিংস";
+"my-watchlist-str" = "আমার দেখাগুলি";
+"information-str" = "তথ্য";
+"t-&-c-str" = "শর্তাবলি";
+"f-a-q-str" = "সচারাচার জিজ্ঞাসা";
+"privacy-notice-str" = "গোপনীয়তা বিজ্ঞপ্তি";
+"log-out-str" = "লগ আউট";
+"delete-account-str" = "একাউন্ট মুছে ফেলুন";
+"app-version-str" = "অ্যাপ ভার্সন ৪.৯.২";
+
+//অ্যাপসেটিংসভিউ
+"connect-to-tv-str" = "টিভিতে সংযুক্ত করুন";
+"scan-qr-code-str" = "স্ক্যান QR কোড";
+"qr-code-usage-description-str" = "স্ক্যান করতে ফ্রেমের ভিতরে QR কোড রাখুন \n দ্রুত ফলাফল পেতে ঝাঁকানো এড়িয়ে চলুন";
+"scan-your-qr-code-str" = "আপনার QR কোড স্ক্যান করুন";
+"enter-your-code-str" = "আপনার কোড দিন";
+"language-str" = "ভাষা";
+"select-your-language-str" = "ভাষা পছন্দ করুন";
+"data-saver-mode-str" = "ডাটা সঞ্চয় মুড";
+"off-str" = "অফ";
+"on-str" = "অন";
+
+//ইডিটপ্রফাইলভিউ
+"upload-change-photo-str" = "আপলোড / ছবি পরিবর্তন";
+"first-name-str" = "প্রথম নাম";
+"first-name-placeholder-str" = "প্রথম নাম লিখুন";
+"last-name-str" = "শেষ নাম";
+"last-name-placeholder-str" = "শেষ নাম লিখুন";
+"date-of-birth-str" = "জন্ম তারিখ";
+"sex-str" = "লিঙ্গ";
+"male-str" = "পুরুষ";
+"female-str" = "মহিলা";
+"other-str" = "অন্যান্য";
+"country-str" = "দেশ";
+"city-str" = "শহর";
+"area-str" = "জায়গা";
+"update-str" = "আপডেট";
+
+//ইরর টাইটেলস & টেক্সট
+"error-alert-str" = "ত্রুটি";
+"enter-a-valid-first-name-str" = "যুক্তিসিদ্ধ প্রথম নাম লিখুন.";
+"select-a-valid-date-of-birth-str" = "যুক্তিসিদ্ধ জন্ম তারিখ বাছাই করুন.";
+"speech-recognition-alert-str" = "বক্তৃতা স্বীকৃতি অথবা মাইক্রোফোন অনুমতি বন্ধ করা আছে৷ আপনি চাইলে সেটিংস থেকে অনুমোদন করতে পারেন।";
+
+//ফিল্টার টেক্সট
+"trending-str" = "চলমান";
+"politics-str" = "রাজনীতি";
+"sports-str" = "খেলাধুলা";
+"talk-show-str" = "আলোচনা অনুষ্ঠান";
+"business-str" = "ব্যবসা";
+"technology-str" = "প্রযুক্তি";
+"international-str" = "আন্তর্জাতিক";
+"national-str" = "জাতীয়";
+"entertainment-str" = "বিনোদন";
+
+//সার্চ কন্টেন্ট
+"search-placeholder-str" = "অনুসন্ধান, সংবাদ এবং অন্যান্য..";
+
+//ন্যাভিগেশন টাইটেল টেক্সটস
+"edit-profile-nav-str" = "ব্যবহারকারীর প্রোফাইল সম্পাদনা";
+"notification-nav-str" = "প্রজ্ঞাপনগুলো";
+"terms-&-condition-nav-str" = "শর্তাবলি";
+
+//টাইটেল টেক্সটস
+"search-title-str" = "অনুসন্ধান";
+"favourite-title-str" = "পছন্দসমুহ";
+"HOME-tab-str" = "হোম";
+
+//Filter titles
+"latest-filter-str" = "নতুন";
+"oldest-filter-str" = "পুরাতন";
+"popular-filter-str" = "জনপ্রিয়";
+
+//লগইন & একাউন্ট-খুলন পেজ
+"login-str" = "লগইন";
+"email-str" = "ইমেইল";
+"password-str" = "পাসওয়ার্ড";
+"remember-me-str" = "মনে রাখুন";
+"forgot-password-str" = "পাসওয়ার্ড ভুলে গেছেন";
+"LOGIN-str" = "লগইন";
+"don’t-have-an-account?-str" = "একটি অ্যাকাউন্ট নেই?";
+"sign-up-str" = "নিবন্ধন করুন";
+"or-continue-with-str" = "অথবা এগুলোর সাথে চালিয়ে যান";
+"confirm-password-str" = "পাসওয়ার্ড নিশ্চিত করুন";
+"Have an account?" = "একাউন্ট আছে?";
+"Are you sure want to logout?" = "আপনি কি নিশ্চিত, লগআউট করতে চান?";

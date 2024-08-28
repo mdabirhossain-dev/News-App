@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NewsViedeoCollectionViewCell" customModule="NewsOTT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="258" height="347"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="258" height="347"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jFk-Rp-kCV">
+                        <rect key="frame" x="0.0" y="0.0" width="258" height="347"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsPicture" translatesAutoresizingMaskIntoConstraints="NO" id="AxI-dd-uas">
+                                <rect key="frame" x="0.0" y="0.0" width="258" height="287"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mQL-wQ-vtU">
+                                <rect key="frame" x="0.0" y="287" width="258" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ayman leaves behind swirls Ayman leaves behind swirls" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6d-4X-H6W">
+                                        <rect key="frame" x="8" y="4" width="242" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="z5G-jY-z3Y">
+                                        <rect key="frame" x="8" y="40" width="116" height="12"/>
+                                        <subviews>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XS4-nD-M4n">
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <inset key="imageEdgeInsets" minX="-4" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="3.6K Views" image="views_mono"/>
+                                            </button>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfn-B2-flp">
+                                                <rect key="frame" x="62" y="0.0" width="54" height="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                <inset key="imageEdgeInsets" minX="-4" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="20 min ago" image="circle_mono"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="eAB-OS-g7d"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="z5G-jY-z3Y" secondAttribute="bottom" constant="8" id="2lB-P4-X5v"/>
+                                    <constraint firstAttribute="trailing" secondItem="y6d-4X-H6W" secondAttribute="trailing" constant="8" id="2xa-aN-bGV"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="z5G-jY-z3Y" secondAttribute="trailing" constant="8" id="HW0-og-49q"/>
+                                    <constraint firstItem="z5G-jY-z3Y" firstAttribute="leading" secondItem="mQL-wQ-vtU" secondAttribute="leading" constant="8" id="IZd-hh-Yqp"/>
+                                    <constraint firstAttribute="height" constant="60" id="L2V-ah-bSu"/>
+                                    <constraint firstItem="y6d-4X-H6W" firstAttribute="top" secondItem="mQL-wQ-vtU" secondAttribute="top" constant="4" id="diP-hm-4x7"/>
+                                    <constraint firstItem="y6d-4X-H6W" firstAttribute="leading" secondItem="mQL-wQ-vtU" secondAttribute="leading" constant="8" id="eko-l0-HRs"/>
+                                    <constraint firstItem="z5G-jY-z3Y" firstAttribute="top" secondItem="y6d-4X-H6W" secondAttribute="bottom" constant="4" id="hA5-VF-yTY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AxI-dd-uas" secondAttribute="trailing" id="371-H5-2qp"/>
+                            <constraint firstAttribute="bottom" secondItem="mQL-wQ-vtU" secondAttribute="bottom" id="H5G-wb-HO1"/>
+                            <constraint firstItem="AxI-dd-uas" firstAttribute="top" secondItem="jFk-Rp-kCV" secondAttribute="top" id="Vur-ta-zA2"/>
+                            <constraint firstAttribute="trailing" secondItem="mQL-wQ-vtU" secondAttribute="trailing" id="X5e-Xr-RTm"/>
+                            <constraint firstItem="mQL-wQ-vtU" firstAttribute="leading" secondItem="jFk-Rp-kCV" secondAttribute="leading" id="adS-Yt-RSC"/>
+                            <constraint firstItem="AxI-dd-uas" firstAttribute="leading" secondItem="jFk-Rp-kCV" secondAttribute="leading" id="auz-ib-X8V"/>
+                            <constraint firstItem="mQL-wQ-vtU" firstAttribute="top" secondItem="AxI-dd-uas" secondAttribute="bottom" id="ehi-uN-bTk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jFk-Rp-kCV" secondAttribute="bottom" id="2Zn-Kp-c7M"/>
+                <constraint firstAttribute="leading" secondItem="jFk-Rp-kCV" secondAttribute="leading" id="44x-aP-CQW"/>
+                <constraint firstAttribute="top" secondItem="jFk-Rp-kCV" secondAttribute="top" id="Fzn-1X-px1"/>
+                <constraint firstAttribute="trailing" secondItem="jFk-Rp-kCV" secondAttribute="trailing" id="jXz-d8-f0d"/>
+            </constraints>
+            <size key="customSize" width="258" height="347"/>
+            <connections>
+                <outlet property="customView" destination="jFk-Rp-kCV" id="P8d-iv-720"/>
+                <outlet property="newsImageView" destination="AxI-dd-uas" id="6yt-Gf-JLg"/>
+                <outlet property="newsTitleLabel" destination="y6d-4X-H6W" id="R1h-am-9Ic"/>
+                <outlet property="totalViews" destination="XS4-nD-M4n" id="5h9-yu-cFS"/>
+                <outlet property="uploadedTime" destination="Rfn-B2-flp" id="Dvm-zu-CTl"/>
+            </connections>
+            <point key="canvasLocation" x="41.221374045801525" y="46.126760563380287"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="circle_mono" width="3" height="3"/>
+        <image name="newsPicture" width="115" height="172"/>
+        <image name="views_mono" width="10" height="9"/>
+    </resources>
+</document>

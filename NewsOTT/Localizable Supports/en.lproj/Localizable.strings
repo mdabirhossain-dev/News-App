@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  NewsOTT
+
+  Created by Tanvir Rahman on 2/11/23.
+  
+*/
+
+//Profilecontentview
+"edit-profile-str" = "Edit Profile";
+"app-settings-str" = "App Settings";
+"my-watchlist-str" = "My Watchloist";
+"information-str" = "Information";
+"t-&-c-str" = "T&C";
+"f-a-q-str" = "FAQ";
+"privacy-notice-str" = "Privacy Notice";
+"log-out-str" = "Log Out";
+"delete-account-str" = "Delete Account";
+"app-version-str" = "App Version 4.9.2";
+
+//Appsettingsview
+"connect-to-tv-str" = "Connect To TV";
+"scan-qr-code-str" = "Scan QR code";
+"qr-code-usage-description-str" = "Place qr code inside the frame to scan please \n avoid shake to get results quickly";
+"scan-your-qr-code-str" = "scan your QR code";
+"enter-your-code-str" = "Enter your Code";
+"language-str" = "Language";
+"select-your-language-str" = "Select your language";
+"data-saver-mode-str" = "Data Saver Mode";
+"off-str" = "OFF";
+"on-str" = "ON";
+
+//Editprofileview
+"upload-change-photo-str" = "Upload / Change Photo";
+"first-name-str" = "First Name";
+"first-name-placeholder-str" = "Enter your first name";
+"last-name-str" = "Last Name";
+"last-name-placeholder-str" = "Enter your last name";
+"date-of-birth-str" = "Date of Birth";
+"sex-str" = "Sex";
+"male-str" = "Male";
+"female-str" = "Female";
+"other-str" = "Other";
+"country-str" = "Country";
+"city-str" = "City";
+"area-str" = "Area";
+"update-str" = "Update";
+
+//Error Titles & text
+"error-alert-str" = "Error";
+"enter-a-valid-first-name-str" = "Enter a valid first name.";
+"select-a-valid-date-of-birth-str" = "Select a valid date of birth.";
+"speech-recognition-alert-str" = "Speech recognition or microphone permission denied. You can approve from Settings.";
+
+//Menu contents
+"trending-str" = "Trending";
+"politics-str" = "Politics";
+"sports-str" = "Sports";
+"talk-show-str" = "Talk Show";
+"business-str" = "Business";
+"technology-str" = "Technology";
+"international-str" = "International";
+"national-str" = "National";
+"entertainment-str" = "Entertainment";
+
+//Search view contents
+"search-placeholder-str" = "Search for a show, News, e.t.c.";
+
+//Navigation title texts
+"edit-profile-nav-str" = "User Profile Edit";
+"notification-nav-str" = "Notifications";
+"terms-&-condition-nav-str" = "Terms & Condition";
+
+//title texts
+"favourite-title-str" = "Favourite";
+"search-title-str" = "Search";
+"HOME-tab-str" = "HOME";
+
+//Filter titles
+"latest-filter-str" = "Latest";
+"oldest-filter-str" = "Oldest";
+"popular-filter-str" = "Popular";
+
+//login & create-account page
+"login-str" = "Login";
+"email-str" = "Email";
+"password-str" = "Password";
+"remember-me-str" = "Remember Me";
+"forgot-password-str" = "Forgot Password";
+"LOGIN-str" = "LOGIN";
+"don’t-have-an-account?-str" = "Don’t have an account?";
+"sign-up-str" = "Sign Up";
+"or-continue-with-str" = "Or Continue with";
+"confirm-password-str" = "Confirm Password";
+"Have an account?" = "Have an account?";
+"Are you sure want to logout?" = "Are you sure want to logout?";
